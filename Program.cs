@@ -29,40 +29,40 @@ class Program
         while (!salir)
         {
             Console.Clear();
-            Console.WriteLine("----------------------------");
-            Console.WriteLine("- 1. CREAR TORNEO.         -");
-            Console.WriteLine("- 1.1 ADD TORNEOS.         -");
-            Console.WriteLine("- 1.2 BUSCAR TORNEOS.      -");
-            Console.WriteLine("- 1.3 ELIMINAR TORNEOS.    -");
-            Console.WriteLine("- 1.4 ACTUALIZAR TORNEOS.  -");
-            Console.WriteLine("- 1.5 REGRESAR MAIN MENU.  -");
-            Console.WriteLine("----------------------------");
-            Console.Write("Selecciona una opción (1.1 - 1.5): ");
+            Console.WriteLine("-----------------------------");
+            Console.WriteLine("-       CREAR TORNEOS       -");
+            Console.WriteLine("- 1. AGREGAR TORNEO.        -");
+            Console.WriteLine("- 2. BUSCAR TORNEOS.        -");
+            Console.WriteLine("- 3. ELIMINAR TORNEOS.      -");
+            Console.WriteLine("- 4. ACTUALIZAR TORNEOS.    -");
+            Console.WriteLine("- 5. REGRESAR MAIN MENU.    -");
+            Console.WriteLine("-----------------------------");
+            Console.Write("Selecciona una opción (1 - 5): ");
             string opcion = Console.ReadLine() ?? string.Empty;
 
             switch (opcion)
             {
-                case "1.1":
+                case "1":
                     AgregarTorneo();
                     break;
-                case "1.2":
+                case "2":
                     BuscarTorneo();
                     break;
-                case "1.3":
+                case "3":
                     EliminarTorneo();
                     break;
-                case "1.4":
+                case "4":
                     ActualizarTorneo();
                     break;
-                case "1.5":
+                case "5":
                     salir = true;
                     break;
                 default:
-                    Console.WriteLine("Opción no válida.");
+                    Console.WriteLine("Opción no valida.");
                     break;
             }
 
-            Console.WriteLine("Presiona ENTER para continuar...");
+            Console.WriteLine("Presiona ENTER para volver al menu");
             Console.ReadLine();
         }
     }
