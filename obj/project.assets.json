@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\TALLER-LIGA\\TALLER-LIGA.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\proyectossss\\TALLER-LIGA\\TALLER-LIGA.csproj",
       "projectName": "TALLER-LIGA",
-      "projectPath": "C:\\Users\\USUARIO\\TALLER-LIGA\\TALLER-LIGA.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\proyectossss\\TALLER-LIGA\\TALLER-LIGA.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\TALLER-LIGA\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\proyectossss\\TALLER-LIGA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
