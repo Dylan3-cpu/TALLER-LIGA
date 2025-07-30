@@ -34,7 +34,7 @@ class Program
                     Create.Mostrar(); // Cambio TournamentModel.Mostrar() por Create.Mostrar()
                     break;
                 case 2:
-                    Console.WriteLine("Registro de Equipos...");
+                    CreateTeams.Mostrar(); // Llama al submenú de equipos
                     break;
                 case 3:
                     Console.WriteLine("Registro de Jugadores...");
